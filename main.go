@@ -1,3 +1,7 @@
 package main
 
-func main() {}
+import "github.com/dhyanio/autotag/cmd"
+
+func main() {
+	cmd.Execute()
+}
